@@ -1,24 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import Intro from "./pages/intro/intro"
+import "./App.css"
+import NavBar from "./components/NavBar";
+import About from "./pages/about/about"
+import Projects from "./pages/projects/projects";
+import Education from "./pages/education/education";
+import { ThemeProvider } from "@material-ui/styles";
+import theme from "./theme";
+import Experience from "./pages/experiences/experiences";
+import Skills from "./pages/skills/skills";
+import { useEffect, useRef, useState } from "react";
 
 function App() {
+  const itemRef = useRef(null);
+  const [value, setValue] = useState(0);
+
+  const handleChangeTab = (event, newValue) => {
+    console.log(newValue);
+    setValue(newValue);
+  }
+
+  useEffect(() => {
+    if (itemRef && itemRef.current) {
+      window.scrollTo({
+        top: itemRef.current.offsetTop,
+        behavior: "smooth",
+      })
+    }
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <NavBar value={value} handleChange={handleChangeTab} />
+      <div ref={value === 0 ? itemRef : null}>
+        <Intro />
+      </div>
+      <div ref={value === 1 ? itemRef : null}>
+        <About />
+      </div>
+      <div ref={value === 2 ? itemRef : null}>
+        <Education />
+      </div>
+      <div ref={value === 3 ? itemRef : null}>
+        <Experience />
+      </div>
+      <Skills />
+      <div ref={value === 4 ? itemRef : null} >
+        <Projects />
+      </div>
+    </ThemeProvider>
   );
 }
 
