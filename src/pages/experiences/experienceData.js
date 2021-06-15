@@ -1,7 +1,7 @@
 import { Typography } from "@material-ui/core"
-import CVS from "../../assets/cvs.svg"
-import FPT from "../../assets/fpt.png"
-import KPIM from "../../assets/kpim.png"
+import CVS from "../../assets/companies/cvs.svg"
+import FPT from "../../assets/companies/fpt.png"
+import KPIM from "../../assets/companies/kpim.png"
 
 const experiences = [
     {
