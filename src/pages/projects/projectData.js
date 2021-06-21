@@ -15,6 +15,7 @@ import JavasScript from "../../assets/languages/javascript.svg"
 import FireBase from "../../assets/languages/firebase.svg"
 import GoogleMap from "../../assets/languages/googlemap.svg"
 import HTML from "../../assets/languages/html.svg"
+import Nginx from "../../assets/languages/nginx.svg"
 
 
 import Document from "../../assets/projects/document.gif"
@@ -24,6 +25,7 @@ import Educa from "../../assets/projects/educa.svg"
 import TwoMAway from "../../assets/projects/2maway.jpg"
 import RapidSign from "../../assets/projects/rapidsign.gif"
 import SkillRank from "../../assets/projects/skillrank.gif"
+import Vimepharco from "../../assets/projects/vimepharco.gif"
 
 import { Typography } from "@material-ui/core"
 
@@ -124,6 +126,25 @@ export const group = [
         time: "April 2021 - June 2021",
         github: "https://github.com/nhd36/rapid-signing"
     },
+    {
+        name: "Vimepharco Web Application",
+        role: "Backend Developer",
+        stacks: [Python, Flask, Docker, Nginx, SQLAlchemy, SQLite, Ubuntu],
+        image: Vimepharco,
+        link: "https://web.celavie.vn",
+        desc:
+            <Typography style={{ fontSize: 18 }}>
+                - RapidSign is an E-Commercial Web Application that me and my friends
+                cooperate to build for a Medicine company with all the functionalities 
+                of a Landing Page showcase, displaying selling products, showing 
+                company's services.
+                <br/>
+                - Adminstrator will have the ability to update products or services, authentication
+                system.
+            </Typography>,
+        time: "April 2021 - June 2021",
+        github: null
+    },
 ]
 
 export const personal = [
@@ -132,7 +153,7 @@ export const personal = [
         role: "Fullstack Developer",
         stacks: [Python, Flask, SQLite, SQLAlchemy, HTML],
         image: OCRManagement,
-        link: "http://139.177.188.127:3001",
+        link: "https://ocr-web.namxin.com",
         desc:
             <Typography style={{ fontSize: 18 }}>
                 - OCR Document is a small CRUD Web Application integrated with Computer Vision
