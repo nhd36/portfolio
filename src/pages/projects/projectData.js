@@ -134,8 +134,8 @@ export const group = [
         link: "https://web.celavie.vn",
         desc:
             <Typography style={{ fontSize: 18 }}>
-                - RapidSign is an E-Commercial Web Application that me and my friends
-                cooperate to build for a Medicine company with all the functionalities 
+                - RapidSign is an E-Commercial Web Application for medical industry that me 
+                and my friends cooperate to build for a Medicine company with all the functionalities 
                 of a Landing Page showcase, displaying selling products, showing 
                 company's services.
                 <br/>
