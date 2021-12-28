@@ -91,24 +91,6 @@ export const group = [
         github: "https://github.com/nhd36/2MAway"
     },
     {
-        name: "Skillrank",
-        role: "Frontend Developer",
-        stacks: [React, Mui, NextJS],
-        image: SkillRank,
-        link: "https://rapidsign.herokuapp.com/register",
-        desc:
-            <Typography style={{ fontSize: 18 }}>
-                - An E-Learning platform that is built with the purposes of allowing the
-                students to be able to access the courses and Instructors to be able to
-                manage their contents via Web or Mobile Application.
-                <br />
-                - The Web Application is at the very beginning phase of the product without
-                any actual layout or design.
-            </Typography>,
-        time: "April 2021 - Present",
-        github: null
-    },
-    {
         name: "RapidSign",
         role: "Frontend Developer",
         stacks: [React, Mui],
@@ -131,16 +113,15 @@ export const group = [
         role: "Backend Developer",
         stacks: [Python, Flask, Docker, Nginx, SQLAlchemy, SQLite, Ubuntu],
         image: Vimepharco,
-        link: "https://web.celavie.vn",
+        link: "https://vimepharco.vn/",
         desc:
             <Typography style={{ fontSize: 18 }}>
-                - RapidSign is an E-Commercial Web Application for medical industry that me 
-                and my friends cooperate to build for a Medicine company with all the functionalities 
-                of a Landing Page showcase, displaying selling products, showing 
-                company's services.
+                - Vimepharco is a E-Comercial Web Application that focusing on pharmacy domain that helps the client to sell their 
+                pharmacy products.
                 <br/>
-                - Adminstrator will have the ability to update products or services, authentication
-                system.
+                - Adminstrator have the ability to create account, manage user permissions, update products or services.
+                <br/>
+                - Worked mainly as a Backend Developer, designed database, and deployed web application on to server.
             </Typography>,
         time: "April 2021 - June 2021",
         github: null

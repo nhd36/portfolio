@@ -131,7 +131,7 @@ const About = () => {
                                             className={classes.infoDetails}
                                             style={{ fontFamily: 'Lato', fontWeight: 300 }}
                                         >
-                                            (+84)81 649 3806
+                                            (+1)267 366 3270
                                         </Typography>
                                     </td>
                                 </tr>
@@ -151,7 +151,7 @@ const About = () => {
                         </Box>
                         <Button 
                             className={classes.viewResume}
-                            onClick={() => window.open("https://drive.google.com/drive/u/0/folders/10ZgBU8DSbJUJ5wmMzYdZX17jtBoAwCPm", '_blank', 'noopener,noreferrer')}
+                            onClick={() => window.open("https://drive.google.com/file/d/1dL0pQ46IQv-Od5hSxaOg7Xrx5h-CV_n0/view?usp=sharing", '_blank', 'noopener,noreferrer')}
                         >
                             See My Resume
                         </Button>

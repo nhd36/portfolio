@@ -89,7 +89,7 @@ const Experience = () => {
                                             justifyContent: "center"
                                         }}
                                     >
-                                        <img src={data.logo} alt="logo" width={"65%"} />
+                                        <img src={data.logo} alt="logo" width={"100%"} />
                                     </Box>
                                     <Box>
                                         <Typography style={{ fontWeight: 900 }}>

@@ -35,8 +35,7 @@ const Intro = () => {
                     className={classes.introText}
                     strings={["Software Engineer",
                                 "Web Developer",
-                                "Backend Developer",
-                                "Frontend Developer"
+                                "Backend Developer"
                             ]}
                     typeSpeed={40}
                     backSpeed={50}

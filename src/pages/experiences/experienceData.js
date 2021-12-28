@@ -1,41 +1,40 @@
 import { Typography } from "@material-ui/core"
 import CVS from "../../assets/companies/cvs.svg"
 import FPT from "../../assets/companies/fpt.png"
-import KPIM from "../../assets/companies/kpim.png"
+import LNX from "../../assets/companies/lexisnexis.png"
 
 const experiences = [
     {
-        name: "KPIM Joint Stock",
-        role: "Frontend Developer Internship",
-        time: "April 2021 - Present",
+        name: "LexisNexis Corporation",
+        role: "Software Engineer Coop",
+        time: "September 2021 - Present",
         description:
             <Typography style={{
                 fontSize: '1em',
                 fontWeight: 200
             }}>
-                - Participating in the early development process
-                of an E-Learning Platform for the company's product.
+                - Implementing Graph Traversing algorithm to traverse through 
+                random patents in the Citation Network to build sample dataset.
                 <br />
-                - Building basic structure and functionlaties for the
-                Frontend Client Side using NextJS, ReactJS and MaterialUI
+                - Customizing and implementing Centrality Algorithms to calculate 
+                the influential score of patents in Citation Network.
             </Typography>,
-        logo: KPIM,
-        link: "https://kpim.vn/"
+        logo: LNX,
+        link: "https://www.lexisnexis.com/en-us/gateway.page"
     },
     {
         name: "Computer Vision Vietnam",
-        role: "Fullstack Developer Internship",
+        role: "Software Engineer Coop",
         time: "September 2020 - March 2021",
         description:
             <Typography style={{
                 fontSize: '1em',
                 fontWeight: 200
             }}>
-                - Participated in the development cycle of the Software Engineer team, 
-                working on Hotel Management product
+                - Designed and developed backend system for SaaS web application demo integrated with OCR Technology 
+                with REST endpoints that allow users to extract and manage identity cards using Flask, Redis, Celery and MySQL.
                 <br />
-                - Successfully finished building a Backend System for a Demo Company's 
-                web application
+                - Containerized application with Docker, configured domain with NGINX and deployed on Linux-based server for production 
             </Typography>,
         logo: CVS,
         link: "https://www.computervision.com.vn/"
