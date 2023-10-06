@@ -1,13 +1,13 @@
 import './App.scss';
 import IntroPage from './pages/IntroPage';
 import AboutPage from './pages/AboutPage';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import ExperiencesPage from './pages/ExperiencesPage';
 
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/'>
           <Route index element={<IntroPage/>}/>
@@ -15,7 +15,7 @@ function App() {
           <Route path='experiences' element={<ExperiencesPage/>} />
         </Route>    
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
