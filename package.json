@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "homepage": "https://nhd36.github.io/portfolio",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@coreui/react": "^5.0.0-alpha.1",
     "@react-spring/web": "^9.5.5",

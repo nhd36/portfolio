@@ -12,17 +12,17 @@ interface ILink {
 const links: ILink[] = [
     {
         title: "Home",
-        path: "/",
+        path: "/portfolio",
         icon: BiHomeAlt
     },
     {
         title: "About",
-        path: "/about",
+        path: "/portfolio/about",
         icon: BsPerson
     },
     {
         title: "Experiences",
-        path: "/experiences",
+        path: "/portfolio/experiences",
         icon: MdOutlineScreenshotMonitor
     },
     // {
