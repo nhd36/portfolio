@@ -31,7 +31,10 @@ const ProjectSection = () => {
                     <p>{value.content}</p>
                   </div>
                   <div className="project-section-card-button-group">
-                    <Button icon={<FaGithub className="project-section-card-button-icon"/>} onClick={() => openGithubLink(value.github)} title="Github"/>
+                    <Button 
+                      icon={<FaGithub className="project-section-card-button-icon"/>} 
+                      onClick={() => openGithubLink(value.github)} title="Github"
+                    />
                   </div>
                 </GlowingBox>
               )

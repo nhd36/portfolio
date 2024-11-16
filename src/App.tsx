@@ -2,11 +2,9 @@ import './App.scss';
 import IntroPage from './pages/IntroPage';
 import AboutPage from './pages/AboutPage';
 import ExperiencesPage from './pages/ExperiencesPage';
-import { useState } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
-  const [page, setPage] = useState(0);
 
   return (
     <HashRouter>

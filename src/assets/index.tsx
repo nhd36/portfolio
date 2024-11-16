@@ -6,6 +6,7 @@ import CiscoGif from "./ciscogif.jpeg";
 import LexisNexisGif from "./lexisnexis.jpeg";
 import CVSGif from "./cvs.png";
 import FPTGif from "./fpt.png";
+import BloombergGif from "./bloomberg.jpeg";
 
 import MeAmazon from "./amazon.jpg";
 import MeGoogle from "./google.jpg";
@@ -60,6 +61,7 @@ export {
   LexisNexisGif,
   CVSGif,
   FPTGif,
+  BloombergGif,
   
   ProjectVimepharco,
   ProjectMealBuddy,
